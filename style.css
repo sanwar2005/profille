@@ -1,0 +1,149 @@
+
+.ss span:after{
+				
+	 
+	content:'Web designer';
+	animation: text 10s infinite;
+	color:C238EA;
+				
+}
+			
+@keyframes text{
+				
+	20%
+	{
+		content:'Web Designer';
+	}
+	
+	40%
+	{
+		content:'Student';
+	}
+	
+}
+
+.one
+{
+		font-size:28px;
+		font-family:gabriola;
+		padding-top:12px;
+		padding-left:12px;
+		line-height:53px;
+		word-spacing:10px;
+		color:#171a1e;
+		
+}
+
+#image-container 
+{
+  overflow: hidden; /* Ensures the image doesn't overflow the container */
+}
+
+#image-container img 
+{
+  transition: transform 0.3s ease; /* Animation duration and easing */
+}
+
+#image-container:hover img 
+{
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+
+#education{
+		background:#d4dde4;
+		padding-bottom:40px;
+		padding-top:0px;
+		margin-top:30px;
+}
+
+
+ .table-hover>tbody>tr:hover
+        {
+            background:black;
+            color: white;
+        }
+        .table-hover>thead>tr:hover
+        {
+            background:crimson;
+            color:#fff;
+        }
+
+
+
+#Hobbies .txtHead
+{
+	background:#fff;
+	padding:30px 20px;
+	
+	
+}
+#Hobbies .txtHead .fa 
+{
+	font-size: 50px;
+	color: #171a1e;
+
+}
+.para 
+{
+	text-align:justify;
+	color:black;
+	
+
+}
+.hob{
+		font-family:Baskerville Old Face;
+		font-weight:bold;
+		color:black;
+		padding-bottom:35px;
+}
+#Hobbies{
+		padding-top:50px;
+		background:#c5ced5;
+		padding-bottom:50px;
+}
+.form{
+	padding-top:50px;
+}
+.social a:hover 
+{
+    color: #c0392b;
+}
+.social a
+ {
+    font-size:25px;
+    margin: 0 10px;
+    
+}
+.h2{
+	font-family:Baskerville Old Face;
+		font-weight:bold;
+		color:black;
+}
+.table-bordered>tbody>tr>td
+{
+	border:5px double black;
+}
+.pro{
+	margin-top:60px;
+	color:white ;
+	padding-bottom:10px;
+	font-family:Baskerville Old Face;
+}
+#contact
+{
+		margin-top:30px;
+}
+.copy
+{
+color:black;
+font-family:calibri;
+padding-top:0px;	
+
+	
+}
+
+.img-thumbnail{
+	border:2px solid gray;
+	background: #bfbbbb;
+}
